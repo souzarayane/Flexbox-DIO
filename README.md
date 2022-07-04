@@ -15,6 +15,7 @@ Este repositório contém aulas sobre o conceito de Flexbox e suas propriedades,
 <h2>:computer: Projeto</h2>
 Mais um projeto de uma landing page para uma agência de turismo fictícia, usando propriedades de flexbox ministradas nas aulas.
 Propriedades do Flexbox usadas:
+
 * align-items;
 * display-flex;
 * flex-direction;
