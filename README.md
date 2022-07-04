@@ -21,7 +21,7 @@ Propriedades do Flexbox usadas:
 * flex-wrap;
 * justify-content;
 
-Paleta de cores usadas no projeto: <br /><br />
+<h2>:art: Paleta de cores usadas no projeto:</h2>
 <img src="https://github.com/souzarayane/Flexbox-DIO/blob/main/flex-projeto/assets/img/Paleta%20de%20cores.png" width="500px" />
 
 Foi usado um menu responsivo com javaScript junto com a propriedade CSS Smooth Scroll(Rolagem Suave).
