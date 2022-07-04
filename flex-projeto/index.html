@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Turismos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header id="header">
+        <h1><a href="#">Flex<span>Turismos</span></a></h1>
+        <nav id="nav" class="nav-menu">
+            <button id="btn-mobile">
+                <span id="hamburger"></span>
+            </button>
+            
+            <ul id="menu">
+                <li><a href="#quem-somos">Quem somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex-container apresentacao">
+        <div class="texto-apresentacao">
+            <h1>Flex <br>Turismos</h1>
+            <p> Donec ultricies eros sapien, sed mattis nibh malesuada id. Donec mollis 
+            risus id risus porttitor iaculis. Nam posuere finibus sagittis. Integer non 
+            mollis quam.</p>
+            <button>Saiba Mais!</button>
+        </div>
+
+        <div class="img-apresentacao">
+            <img src="./assets/img/0-main.png" alt="banner de apresentação">
+        </div>
+    </div>
+
+    <div id="quem-somos" class="flex-container">
+        <div class="texto-quem-somos">
+            <h2>Quem somos</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p><br />
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        </div>
+
+        <div class="img-quem-somos">
+            <img src="./assets/img/1-quem-somos.png" alt="balcão de atendimento">
+        </div>
+    </div>
+
+    <div class="container-externo">
+        <div id="servicos" class="flex-container">
+            <div class="servicos">
+                <h2>Serviços</h2>
+            </div>
+
+            <div class="list-servicos">
+                <div class="item-service">
+                    <div><img src="./assets/img/icon-1.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p>
+                    <button>Comprar Agora</button>
+                </div>
+
+                <div class="item-service">
+                    <div><img src="./assets/img/icon-2.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p>
+                    <button>Comprar Agora</button>
+                </div>
+
+                <div class="item-service">
+                    <div><img src="./assets/img/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Roteiros personalizados</p>
+                    <button>Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="planos" class="flex-container">
+        <div>
+            <h2>Planos</h2>
+        </div>
+
+        <div class="list-planos">
+            <div class="item-plano">
+                <h3>Plano 1</h3><br />
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <button>Saiba Mais!</button>
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 2</h3><br />
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                </ul>
+                <button>Saiba Mais!</button>
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 3</h3><br />
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <button>Saiba Mais!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="flex-container footer">
+            <p>&copy; 2022 CSS Flexbox</p> 
+            <p>Desenvolvido por Rayane Souza</p>
+        </div>
+    </footer>
+
+    <div class="scrollTop" onclick="scrollToTop()">
+        <img src="./assets/img/up-arrow.png" alt="Seta para cima" />
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
